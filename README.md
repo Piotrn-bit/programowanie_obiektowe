@@ -1,4 +1,4 @@
-# Abstrakcja w programowaniu obiektowym (C++)
+# Abstrakcja w programowaniu obiektowym
 
 ## Co to jest abstrakcja?
 
@@ -13,12 +13,12 @@ Użytkownik klasy nie musi wiedzieć, jak coś działa "pod maską" — wystarcz
 - ułatwia rozwój i utrzymanie projektu
 - pozwala zmieniać implementację bez wpływu na resztę programu
 
-## Jak wygląda abstrakcja w C++?
+## Jak wygląda abstrakcja?
 
-W C++ abstrakcję najczęściej realizuje się za pomocą:
+Abstrakcję realizuje się najczęściej za pomocą:
 - klas abstrakcyjnych
-- metod wirtualnych (virtual)
-- metod czysto wirtualnych (= 0)
+- interfejsów
+- metod, które definiują zachowanie bez implementacji
 
 ## Przykład
 
